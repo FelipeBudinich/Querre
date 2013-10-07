@@ -8,7 +8,7 @@ Version: 1.0.0
 Description
 -----------
 
-Querre is local QR code generator. In an age where everything is online,
+Querre is local QR code generator. Because in an age where everything is online,
 sometimes you need to bring the cloud down to Earth.
 
 *QR Code is a registered trademark of [DENSO WAVE INCORPORATED][1]*
