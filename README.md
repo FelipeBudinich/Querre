@@ -8,10 +8,10 @@ Version: 1.0.0
 Description
 -----------
 
-Querre is local QR code[^1] generator. In an age where everything is online,
+Querre is local QR code generator. In an age where everything is online,
 sometimes you need to bring the cloud down to Earth.
 
-[^1]: QR Code is a registered trademark of [DENSO WAVE INCORPORATED][1]
+*QR Code is a registered trademark of [DENSO WAVE INCORPORATED][1]*
 
 [1]: <http://www.denso-wave.com/qrcode/faqpatent-e.html>
 
@@ -38,7 +38,7 @@ License
 
 See [LICENSE][5] file.
 
-[5]: <>
+[5]: <https://github.com/FelipeBudinich/Querre/blob/master/LICENSE.md>
 
 
 
