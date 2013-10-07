@@ -1,0 +1,30 @@
+{
+    "main": "index.html",
+    "name": "Querre",
+    "description": "QR code generator",
+    "version": "1.0.0",
+    "window": {
+        "icon": "media/gfx/icon.png",
+        "toolbar": false,
+        "width": 390,
+        "height": 494,
+        "position": "center",
+        "min_width": 390,
+        "min_height": 494,
+        "max_width": 390,
+        "max_height": 494,
+        "title": "Querre",
+        "as_desktop": true,
+        "resizable": false,
+        "fullscreen": false,
+        "frame": false,
+        "show": true,
+        "kiosk": false
+    },
+    "webkit": {
+        "plugin": false,
+        "java": false,
+        "page-cache": false
+    },
+    "nodejs": true
+}

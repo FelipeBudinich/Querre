@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Querre</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+<link rel="stylesheet" type="text/css" href="css/index.css">
+    
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="lib/keyboard.js"></script>
+<script type="text/javascript" src="lib/init.js"></script>
+<script type="text/javascript" src="lib/qrcode.js"></script>
+<script type="text/javascript" src="lib/shortcut.js"></script>
+</head>
+<body onload="javascript:ini.initApplication();">
+<input id="text" type="text" value="" placeholder="Write something..." onblur="var that= this; setTimeout(function() { that.focus(); }, 0);"/>
+<div id="qrcode"></div>
+<button id="btn_save" >Save QR</button>
+<input style="display:none;" id="fileDialog" type="file" nwsaveas />
+<script type="text/javascript" src="lib/index.js"></script>
+</body>
