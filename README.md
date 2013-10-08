@@ -1,12 +1,10 @@
-Querre
-======
+# Querre
 
-Version: 1.0.0
-
+**Version: 1.0.1**
 
 
-Description
------------
+
+## Description
 
 Querre is local QR code generator. Because in an age where everything is online,
 sometimes you need to bring the cloud down to Earth.
@@ -17,8 +15,7 @@ sometimes you need to bring the cloud down to Earth.
 
 
 
-Development
------------
+## Development
 
 Querre was developed using [node-webkit][2], [jquery.qrcode.js][3],
 [shortcuts.js][4] and [jQuery][5].
@@ -33,8 +30,7 @@ Querre was developed using [node-webkit][2], [jquery.qrcode.js][3],
 
 
 
-License
--------
+## License
 
 See [LICENSE][5] file.
 
@@ -42,7 +38,7 @@ See [LICENSE][5] file.
 
 
 
-Changelog
----------
+## Changelog
 
+-   10.8.2013 Bug Fix; Wrong file name used during save.
 -   10.7.2013 Initial Commit

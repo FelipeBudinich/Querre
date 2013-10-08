@@ -25,13 +25,12 @@ on("keyup", function (e) {
 var fs = require('fs');
 
 function write(string, path){
-    var elText = document.getElementById("text");
     var regex = /^data:.+\/(.+);base64,(.*)$/;
     var matches = string.match(regex);
     var ext = matches[1];
     var data = matches[2];
     var buffer = new Buffer(data, 'base64');
-    fs.writeFileSync(path + elText.value + "." + ext, buffer);
+    fs.writeFileSync(path + "." + ext, buffer);
 }
 
 
